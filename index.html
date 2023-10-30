@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav data-aos="fade-down">
+      <h1><span>T</span>hiruppathi.</h1>
+      <ul>
+        <li><a href="#header" class="nav-one">Home</a></li>
+        <li><a href="#about" class="nav-two">About</a></li>
+        <li><a href="#contact" class="nav-three">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="header">
+      <div class="container">
+        <div class="header-text" data-aos="fade-right">
+          <p>Frontend developer</p>
+          <h1>
+            Hi, I'm <span>Thiruppathi</span>
+            <br />&puncsp;&puncsp;&puncsp;&puncsp;From Tamilnadu
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- --------------------about----------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/Profile.jpg" data-aos="fade-right" />
+          </div>
+          <div class="about-col-2" data-aos="fade-left">
+            <h1 class="sub-title">About Me</h1>
+            <p class="para-1">
+              My name is Thiruppathi.  I am studing in Government arts and science college kovilpatti.  I am Frontend developer at self learner.
+            </p>
+
+            <div class="tab-titles" data-aos="fade-down">
+              <p class="tab-links active-link" onclick="skills()">Skills</p>
+              
+              <p class="tab-links education" onclick="education()">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills" data-aos="fade-up">
+              <ul>
+                <li><span>UI/UX</span><br />Desiging Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023</span><br />self-learning at youtube</li>
+                <li><span>2023</span><br />BSC Computer Science</li>
+                <li>
+                  <span>2021</span><br />Higher Secondary Computer science
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------------------contact--------- -->
+
+    <div id="contact">
+      <div class="container">
+        <h1 class="contact-heading" data-aos="fade-right">Contact Me</h1>
+        <div class="links">
+          <a href="https://www.instagram.com" target="_blank"><img src="Images/instagram.png" alt="instagram" width="150" data-aos="zoom-in"></a>
+          <a href="https://www.linkedin.com" target="_blank"><img src="Images/linkedIn.png" alt="linkedln" width="150" data-aos="zoom-in"></a>
+          <a href="https://www.facebook.com/" target="_blank"><img src="Images/facebook.png" alt="facebook" width="150" data-aos="zoom-in"></a>
+        </div>
+        <h2 class="email" data-aos="fade-up">kumartirupathi564@gmail.com</h2>
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
